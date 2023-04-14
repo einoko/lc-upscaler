@@ -1,0 +1,12 @@
+test_images
+__pycache__
+old_models
+*.jpg
+*.png
+*.cbz
+*.cbr
+.vscode
+.DS_Store
+
+!demo_1.png
+!demo_2.png
