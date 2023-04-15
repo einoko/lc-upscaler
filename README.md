@@ -3,7 +3,7 @@
 <img src="demo_1.png" style="width: 830px"/>
 <img src="demo_2.png" style="width: 830px"/>
 
-lc-upscaler an upscaling model trained for the purpose of upscaling digital comics drawn in the style of *[ligne claire](https://en.wikipedia.org/wiki/Ligne_claire)*. It was trained on a custom dataset of pictures in that style. There is also an experimental denoiser that removes compression artifacts from the upscaled image. lc-upscaler was trained for a very specific use case (making digital comics look better screens with a high pixel density), which is why it's not a good choice for a general-purpose comic upscaler (for that, see [waifu2x](https://github.com/nagadomi/waifu2x)). It works best with clean lines and simple colors (i.e. no gradients or textures).
+lc-upscaler an upscaling model trained for the purpose of upscaling digital comics drawn in the style of *[ligne claire](https://en.wikipedia.org/wiki/Ligne_claire)*. It was trained on a custom dataset of pictures in that style. There is also an experimental denoiser that removes compression artifacts from the upscaled image. lc-upscaler was trained for a very specific use case (making digital comics look better on screens with a high pixel density), which is why it's not a good choice for a general-purpose comic upscaler (for that, see [waifu2x](https://github.com/nagadomi/waifu2x)). It works best with clean lines and simple colors (i.e. no gradients or textures).
 
 The upscaling model is based on the [ESPCN architecture by Shi et al](https://arxiv.org/abs/1609.05158). The denoiser is based on the [U-Net architecture by Ronneberger et al](https://arxiv.org/abs/1505.04597).
 
