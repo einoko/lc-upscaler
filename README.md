@@ -46,4 +46,4 @@ The following options are available:
 * `--denoise`: Apply a denoising filter to the input image. This is an experimental feature and may not work well with all images.
 * `--suffix STRING`: The suffix to use for the output filename. Default value is `"_upscaled"`, i.e. `image.png` will be saved as `image_upscaled.png`.
 
-> **NOTE:** The upscaling process may take a while, depending on the size of the input image. As an example, a 1500×2000 page takes about 15 seconds to upscale on my machine. If denoising is enabled, the process will take even longer. The same 1500×2000 page takes about 45 seconds to upscale with denoising enabled. Denoising is not always required, in fact, sometimes it may worsen the output quality.
+> **Note** The upscaling process may take a while, depending on the size of the input image. As an example, a 1500×2000 page takes about 15 seconds to upscale on my machine. If denoising is enabled, the process will take even longer. The same 1500×2000 page takes about 45 seconds to upscale with denoising enabled. Denoising is not always required, in fact, sometimes it may worsen the output quality.
