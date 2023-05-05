@@ -14,13 +14,13 @@ See the notebooks in the `notebooks` directory for a starting point on how to tr
 Create a new Conda environment with the required dependencies:
 
 ```bash
-$ conda create --name comic-upscaler --file requirements.txt
-````
+$ conda create --name upscaler --file requirements.txt
+```
 
 ### Activate the environment
 
 ```bash
-$ conda activate comic-upscaler
+$ conda activate upscaler
 ```
 
 If you do not want to create a Conda environment, you can install the following required packages manually (see version numbers in `requirements.txt`):
@@ -33,7 +33,7 @@ If you do not want to create a Conda environment, you can install the following 
 ## Usage
 
 ```bash
-$ python comic-upscaler <OPTIONS> image.jpg
+$ python lc-upscaler.py <OPTIONS> image.jpg
 ```
 
 With no additional options, the command above will output a 2 × upscaled PNG image named `image_upscaled.png`.
